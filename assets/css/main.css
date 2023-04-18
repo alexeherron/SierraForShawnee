@@ -1940,7 +1940,7 @@ input, select, textarea {
 				color: #fff;
 			}
 
-				.icon.circle.fa-twitter:hover, .icon.circle.fa-tiktok:hover {
+				.icon.circle.fa-twitter:hover, .icon.circle.fa-instagram:hover {
 					background: lightsalmon;
 				}
 
@@ -1949,7 +1949,7 @@ input, select, textarea {
 				color: #fff;
 			}
 
-				.icon.circle.fa-facebook-f:hover, .icon.circle.fa-instagram:hover, .icon.circle.fa-reddit:hover {
+				.icon.circle.fa-facebook-f:hover, .icon.circle.fa-tiktok:hover, .icon.circle.fa-reddit:hover {
 					background: #829bc9;
 				}
 
