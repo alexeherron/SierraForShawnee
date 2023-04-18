@@ -1934,7 +1934,7 @@ input, select, textarea {
 				top: -0.2em;
 			}
 
-			.icon.circle.fa-twitter, .icon.circle.fa-tiktok {
+			.icon.circle.fa-twitter, .icon.circle.fa-instagram  {
 				/* background: #70aecd; */
 				background: salmon;
 				color: #fff;
@@ -1944,7 +1944,7 @@ input, select, textarea {
 					background: lightsalmon;
 				}
 
-			.icon.circle.fa-facebook-f, .icon.circle.fa-instagram, .icon.circle.fa-reddit {
+			.icon.circle.fa-facebook-f,.icon.circle.fa-tiktok, .icon.circle.fa-reddit {
 				background: #7490c3;
 				color: #fff;
 			}
