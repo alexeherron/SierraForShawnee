@@ -2942,6 +2942,9 @@ input, select, textarea {
 						border-top: 0;
 						padding-top: 0;
 					}
+					.sierraLogo{
+						display: none;
+					}
 
 			body.index #main {
 				padding-top: 4.5em;
@@ -3366,9 +3369,21 @@ input, select, textarea {
 	font-weight: 900;
 }
 .mission{
-	padding: 3%;
+	padding: 7%;
+	font-size: .9em;
 	background-color: #7c8081;
 	color: white;
+}
+.mission section{
+	border: 2px solid #83d3c9;
+	padding: 4%;
+}
+.mission section.upper{
+	margin-bottom: 5%;
+}
+.sierraLogo{
+	width: 90%;
+	margin-top: 40%;
 }
 .secondInCommand{
 	border: 5px solid #7c8081;
@@ -3487,4 +3502,7 @@ input, textarea{
 }
 .newsletter{
 	font-weight: 300;
+}
+#header{
+	height: 60px;
 }
