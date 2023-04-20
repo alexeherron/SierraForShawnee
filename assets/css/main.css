@@ -2959,7 +2959,12 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 4em 1.5em;
+				padding: 2em 1.5em 20em 1.5em;
+    			height: 80px;
+    			width: 100%;
+			}
+			.wrapt{
+				margin-bottom: 80px;
 			}
 
 		/* Nav */
@@ -3345,9 +3350,7 @@ input, select, textarea {
 	}
 
 /* Additions */
-.aboutme{
-	background-image: url("../../images/sunflowers.jpg");
-}
+
 .meetSierra{
 	font-weight: 900;
 	color:#645862;
@@ -3387,11 +3390,6 @@ input, select, textarea {
 }
 .secondInCommand{
 	border: 5px solid #7c8081;
-}
-#footer{
-	background-image: url("../../images/moreflowers.jpg");
-	color: white;
-	height: 15vh;
 }
 .logo {
 	width: 35vw;
@@ -3494,7 +3492,7 @@ input, textarea{
 	padding-top: 100%; 
 	/* 1:1 Aspect Ratio */
 }
-.voteHeader{
+.voteHeader, .aboutme{
 	background-image: url("../../images/sunflowers.jpg");
 }
 .vote{
@@ -3505,4 +3503,17 @@ input, textarea{
 }
 #header{
 	height: 60px;
+}
+#footer {
+	position: static;
+	width: 100%;
+	padding: 2em 0 5em 0;
+	height: 230px;
+	min-height: 230px;
+	background-color: #1c2021;
+	color:white;
+}
+.wrapt{
+	padding-bottom: 30px;
+	min-height: 100vh;
 }
