@@ -2835,7 +2835,10 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 840px) {
-
+		.upper.blurb{
+			padding: 2%;
+			padding-bottom: 1%;
+		}
 		/* Basic */
 
 			html, body {
@@ -3516,4 +3519,31 @@ input, textarea{
 .wrapt{
 	padding-bottom: 30px;
 	min-height: 100vh;
+}
+.getThis{
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.blurb{
+	padding: 1%;
+	font-size: 0.7em;
+	width: 70%;
+	line-height: 3vh;
+	margin: auto;
+}
+.blurb footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.blurb section p{
+	margin-bottom: 2%;
+}
+.getThis:hover{
+	background-color: white;
+}
+.spaceIt{
+	margin-top: 5%;
 }
